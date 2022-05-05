@@ -1,0 +1,99 @@
+/* basic styles */
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* / basic styles */
+
+
+/* header */
+.father {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    background: #000;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.menu {
+    background: #264653;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.logo {
+    background: #e76f51;
+    flex: 1 1 auto;
+}
+
+.nav {
+    background: #e76f51;
+    flex: 5 1 auto;
+}
+
+.social {
+    background: #e76f51;
+    flex: 1 1 auto;
+}
+
+.main-text {
+    background: #2a9d8f;
+}
+
+h1 {
+    background: #e9c46a;
+}
+/*/ header*/
+
+
+/* main section */
+.section {
+    background: #000;
+    display: flex;
+}
+
+.articles {
+    background: #3d405b;
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.article {
+    background: #81b29a;
+    flex: 1 1 40%;
+}
+
+.navigation {
+    background: #e07a5f;
+    flex: 1 1 100%;
+}
+
+.aside {
+    background: #14213d;
+    flex: 1 1 auto;
+}
+
+.advertising {
+    background: #fca311;
+}
+/*/ main section */
+
+
+/* footer */
+.footer {
+    background: #000;
+}
+
+.foot {
+    background: #6a040f;
+}
+/* / footer */
