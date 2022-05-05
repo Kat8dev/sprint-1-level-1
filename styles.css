@@ -97,3 +97,13 @@ h1 {
     background: #6a040f;
 }
 /* / footer */
+
+
+/* tablet device */
+@media all and (max-width: 750px) {
+    .section {
+        flex-direction: column;
+        background: #6a040f;
+    }
+}
+/*/ tablet device */
