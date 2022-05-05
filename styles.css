@@ -107,3 +107,22 @@ h1 {
     }
 }
 /*/ tablet device */
+
+/* mobile device */
+@media all and (max-width: 350px) {
+    .section {
+        flex-direction: column;
+        background: #f9c74f;
+    }
+
+    .main {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .articles {
+        flex-direction: column;
+    }
+}
+
+/*/ mobile device */
